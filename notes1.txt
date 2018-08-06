@@ -1,0 +1,23 @@
+1. housing price prediciton: ReLU function;; 
+looks like this: 
+|
+|
+|         /  *
+|        /*
+|      */
+|    * /  *
+|-----/
+------------------------
+
+hehe.. Rectified linear unit
+# the idea is that input is given to a neuron which does some processing and
+return output. 
+
+2. idea is like .. we have input layer > hidden layer (`_`) > output layer
+NN are remarkably good in figuring out . the functions from x to y :) 
+
+3. supervised learning applications; structured vs unstructured data
+
+
+
+

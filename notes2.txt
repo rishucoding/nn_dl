@@ -1,0 +1,98 @@
+1. binary classification: input is an object image... output is y(0/1)..whether
+a cat or not. 
+
+now how does a image look to computer? rgb 3*matrices:  what we do is 
+unroll the pixel intensity value.. into a *feature* vector 
+
+so .. how does it go? 
+we take values one by one from the matrices:: and make a feature column vector
+
+like: 
+r = 255 231 42 22
+    123 95 83 25
+    124 255 35 68 
+    45 78 89 96 
+
+similarly g and b matrices
+
+now the feature vector will be like
+X = 255
+    231
+    42
+    22
+    123
+    95
+    83
+    25
+    124
+    255
+    35
+    68
+    45
+    78
+    89
+    96
+
+    ... so a very long feature vector
+    so let's say that the dimension of matrices = 64*64.. then the dim
+    of the feature vector will be 64*64*3 .. yeapp
+    n = 64*64*3 = 12288
+
+    So.. we go from X to y(0/1)
+
+Some more notations: (x,y) is a training example .. y is label and x is feature
+vector
+
+we can have *m* training examples.. {(x1,y1)} (x2,y2),...(xm,ym) }
+now what about testing?? hehe
+
+so we use M(test).. to denote the number of test examples 
+so training set is X
+
+X = [X1, X2,...Xm].. each column of n length
+
+in python: X.shape command return the size of matrix (n,m)
+
+
+
+now .. thinking about the output y. 
+Y is output set. = [Y1, Y2, Y3, ..., Ym]
+Y.shape = (1,m)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
